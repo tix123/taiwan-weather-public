@@ -5,7 +5,6 @@ import Chip from '@mui/material/Chip';
 import Grid from '@mui/material/Grid';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import IconButton from '@mui/material/IconButton';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
@@ -35,7 +34,6 @@ const Dashboard = () => {
         bottom: "5vh",
         right: "10vw",
         zIndex: 1,
-        // fontSize: "60px",
         height: "300px",
         width: "300px"
     }
@@ -108,9 +106,6 @@ const Dashboard = () => {
                                 <LinkedInIcon fontSize="inherit" />
                             </IconButton>
                         </a>
-                        {/* <IconButton sx={iconStyle} >
-                            <AccountCircleIcon fontSize="inherit" />
-                        </IconButton> */}
                     </Grid>
                 </Grid>
             </div>
