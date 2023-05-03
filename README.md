@@ -1,6 +1,6 @@
 # NOTICE
-An online demo is [here](https://weathertaiwan.netlify.app/).
-If you wnat to run this project at your computer, you have to set your own API keys in [.env](.env) file.
+1. The project is deploy to netlify. Visit https://weathertaiwan.netlify.app/
+2. If you wnat to run this project at your computer, you have to set your own API keys in [.env](.env) file.
 
 
 # How to run this project
