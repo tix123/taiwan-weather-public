@@ -1,5 +1,5 @@
 # NOTICE
-1. The project is deploy to netlify. Visit https://weathertaiwan.netlify.app/
+1. This project is deploy to netlify. Visit https://weathertaiwan.netlify.app/
 2. If you wnat to run this project at your computer, you have to set your own API keys in [.env](.env) file.
 
 
