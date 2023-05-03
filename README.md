@@ -1,5 +1,5 @@
 # NOTICE
-An online demo is [here](https://weathertaiwan.netlify.app/)
+An online demo is [here](https://weathertaiwan.netlify.app/).
 If you wnat to run this project at your computer, you have to set your own API keys in [.env](.env) file.
 
 
