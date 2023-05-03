@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* the peak of google map info windows  */
+.gm-style-iw-tc::after {
+  background: transparent !important;
+}
+
+/* the close button of google map info windows  */
+button.gm-ui-hover-effect {
+  visibility: hidden;
+}
+
+/* info window transparent */
+.gm-style-iw {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.gm-style-iw:focus-visible {
+  outline: none;
+}
+
+/* scroll bar background transparent */
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece {
+  background: transparent !important;
+}
