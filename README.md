@@ -7,3 +7,7 @@
 1. Download the code.
 2. Run `npm install` to install npm modules.
 3. Run `npm start` to run the project.
+
+
+# Project Screenshot
+<img src="https://github.com/tix123/taiwan-weather-public/blob/master/screenshots/screenshot.jpg">
