@@ -1,8 +1,8 @@
 const config = {}
 
 // Server URL
-config.CURRENT_WEATHER_URL = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001"
-config.WEEKLY_WEATHER_URL = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-091"
+config.CURRENT_WEATHER_URL = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001"
+config.WEEKLY_WEATHER_URL = "https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-091"
 
 // API status
 config.API_IDLE = "idle";
