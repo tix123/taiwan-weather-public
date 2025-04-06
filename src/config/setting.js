@@ -68,6 +68,8 @@ config.MAX_TEMP_CODE = "MaxT"
 config.MIN_TEMP_CODE = "MinT"
 config.AVG_TEMP_CODE = "T"
 config.PRECIPITATION_CODE = "PoP"
+config.WEEKLY_WEATHER_CODE = "天氣現象"
+config.WEEKLY_AVG_TEMP_CODE = "平均溫度"
 
 // Time change to next city
 config.CHANGE_TIME = 5000

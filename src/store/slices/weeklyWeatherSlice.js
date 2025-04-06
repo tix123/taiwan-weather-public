@@ -8,7 +8,7 @@ export const fetchWeeklyWeather = createAsyncThunk(
         const res = await axios.get(
             config.WEEKLY_WEATHER_URL + "?Authorization="
             + process.env.REACT_APP_WEATHER_AUTHORIZATION +
-            "&locationName=" + config.TAIPEI_CHINESE + "," +
+            "&LocationName=" + config.TAIPEI_CHINESE + "," +
             config.TAICHUNG_CHINESE + "," +
             config.KAOHSIUNG_CHINESE + "," +
             config.PINGTUNG_CHINESE + "," +
@@ -26,10 +26,10 @@ export const fetchWeeklyWeather = createAsyncThunk(
             config.PENGHU_CHINESE + "," +
             config.KINMEN_CHINESE + "," +
             config.MATSU_CHINESE + "," +
-            "&elementName=" + config.WEATHER_CODE + "," +
-            config.AVG_TEMP_CODE
+            "&ElementName=" + config.WEEKLY_WEATHER_CODE + "," +
+            config.WEEKLY_AVG_TEMP_CODE
         );
-        return res.data.records.locations[0].location;
+        return res.data.records.Locations[0].Location;
     }
 );
 
